@@ -1,0 +1,31 @@
+{
+  "name": "webpack-dev-mpa-optimize",
+  "version": "1.0.0",
+  "description": "mpa start server on demand",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --config build/webpack.dev.conf.js",
+    "dev:part": "node build/dev-server-demand.js"
+  },
+  "keywords": [
+    "webpack",
+    "dev",
+    "mpa",
+    "optimize",
+    "demand",
+    "needed"
+  ],
+  "author": "qgr",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "glob": "^7.1.6",
+    "html-webpack-plugin": "^4.3.0",
+    "portfinder": "^1.0.26",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "yargs": "^15.3.1"
+  }
+}
