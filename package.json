@@ -4,8 +4,7 @@
   "description": "mpa start server on demand",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --config build/webpack.dev.conf.js",
-    "dev:part": "node build/dev-server-demand.js"
+    "dev": "node build/dev-server-demand.js"
   },
   "keywords": [
     "webpack",
